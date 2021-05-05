@@ -1,0 +1,19 @@
+>>MODELO CRC<<
+> trocar Opções para o tipo <<Entidade>>
+> Criar modelo Crc do tipo controle: Configurações
+
+>Personagem Colabora com as classes: Item, PortaItem, Alavanca, PortaAlavanca
+>Alavanca Colabora com: PortaAlavanca
+
+>>Diagrama de Pacotes<<
+> Deixar a Cardinalidade ao lado das linhas de Associações
+> O ideal é que os Pacotes não fiquem sozinhos (Classe jogo)
+>Alavanca tem uma relação de Composição p/ PortaAlavanca
+>trocar nome personagem p/ Protagonista
+> Protagonista tem uma agregação com a alavanca
+
+>InicializadorDialogo q n Existe sem Diálogo
+>GerenciadorDialogo é Composto por Diálogo
+
+>PortaItem é composta por Item
+>Personagem Tem ou Possui Item
